@@ -4,7 +4,7 @@ import StyleButton from "../StyleButton";
 import styles from "./styles";
 
 const CarItem = (props) => {
-  const { name, tagLine, tagLineCTA, image } = props;
+  const { name, tagLine, tagLineCTA, image } = props.car.item;
   return (
     <View style={styles.carContainer}>
       {/* <ImageBackground source={require("../../assets/images/ModelS.jpeg")} style={styles.image} /> */}
